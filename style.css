@@ -6,21 +6,35 @@ header {
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
+  display:flex;
+  border-bottom: 1px solid black;
+  height: 75px;
 }
 .container1 {
-  width: 170px;
+  width: 1000px;
   height: 60px;
+  margin-left: 20px;
   display: inline-flex;
+  justify-content: flex-start;
+
+}
+nav {
+  width: 400px;
+  height: 60px;
+  align-content: flex-end;
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.box {
+  width: 75px;
+  height: 60px;
+  margin: 5px;
 }
 h4 {
   font-size: 14px;
   text-align: center;
-
-
-}
-
 }
 nav {
-  display:inline-flex;
-  justify-content: space-around;
+  font: black !important;
 }
