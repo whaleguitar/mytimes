@@ -6,35 +6,68 @@ header {
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
-  display:flex;
+  display: flex;
+  flex-direction: row;
   border-bottom: 1px solid black;
   height: 75px;
 }
-.container1 {
-  width: 1000px;
+.logo {
   height: 60px;
-  margin-left: 20px;
-  display: inline-flex;
-  justify-content: flex-start;
-
+  padding-left: 20px;
+}
+.mytimes {
+  height: 60px;
+  width: 1000px;
+  align-items: center;
+  padding-left: 15px;
 }
 nav {
   width: 400px;
   height: 60px;
-  align-content: flex-end;
   display: inline-flex;
   justify-content: flex-end;
+  align-items: center;
   margin-right: 30px;
+  color: black !important
 }
-.box {
+nav .box {
   width: 75px;
   height: 60px;
   margin: 5px;
 }
-h4 {
-  font-size: 14px;
-  text-align: center;
+.container {
+  border: 1px black;
+  display: inline-flex;
+  flex-direction: row;
 }
-nav {
-  font: black !important;
+.column.large {
+  width: 630px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px black;
+}
+.l1, .l2, .l3, .l4, .l5, .l6 {
+  border: 1px solid black;
+  width: 630px;
+  height: auto;
+}
+
+.main-story.image-content {
+  background-image: ./Resources/images/img-story-main.png
+
+}
+.column.medium {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px black;
+}
+.column.small {
+  width: 240px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px black;
 }
