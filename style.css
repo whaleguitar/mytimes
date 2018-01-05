@@ -36,19 +36,21 @@ nav .box {
   margin: 5px;
 }
 .container {
-  border: 1px black;
+  border: 1px solid black;
   display: inline-flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1350px;
 
+}
+.container div {
+  border: 1px solid black;
 }
 .column.large {
   width: 630px;
   height: auto;
   display: flex;
   flex-direction: column;
-  border: 1px black;
+  border: 1px solid black;
 }
 .l1, .l2, .l3, .l4, .l5, .l6 {
   border: 1px solid black;
@@ -62,17 +64,18 @@ nav .box {
   margin-top: 0;
   display:flex;
   text-align: left;
-  padding-left: 20px;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
 }
-p  {
+.story-content {
+  width: 630px;
+}
+p {
   font-family: Georgia;
   font-size: 17px;
   color: black;
-  width: 630px;
   }
 
 h3 {
@@ -81,29 +84,29 @@ h3 {
   color: black;
   font-weight: bold;
 }
-.l3 {
+.fall-image {
   background-image: url(Resources/images/story-2-fall.png);
   width: 630px;
   height: 300px;
-  font-family: Georgia;
-  font-weight: bold;
-  margin-top: 0;
-  font-size: 30px;
-  color: white;
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-.l5 {
+.beard-image {
   background-image: url(Resources/images/story-3-beard.png);
   width: 630px;
   height: 300px;
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.photo-titles {
   font-family: Georgia;
   font-weight: bold;
   margin-top: 0;
   font-size: 30px;
   color: white;
   text-align: center;
-  display:flex;
-
+  padding: 0  50px;
 }
 
 .column.medium {
@@ -111,12 +114,14 @@ h3 {
   height: auto;
   display: flex;
   flex-direction: column;
-  border: 1px black;
+  border: 1px solid black;
+
 }
 .column.small {
   width: 240px;
   height: auto;
   display: flex;
   flex-direction: column;
-  border: 1px black;
+  border: 1px solid black;
+
 }
