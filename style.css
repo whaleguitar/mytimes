@@ -52,10 +52,12 @@ nav .box {
   width: 630px;
   height: auto;
 }
-
-.main-story.image-content {
-  background-image: ./Resources/images/img-story-main.png
-
+.image-content {
+  background-image:url(Resources/images/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
 }
 .column.medium {
   width: 300px;
