@@ -68,6 +68,19 @@ nav .box {
   font-size: 40px;
   color: white;
 }
+p  {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  width: 630px;
+  }
+
+h3 {
+  font-family: Georgia;
+  font-size: 24px;
+  color: black;
+  font-weight: bold;
+}
 .l3 {
   background-image: url(Resources/images/story-2-fall.png);
   width: 630px;
@@ -78,6 +91,19 @@ nav .box {
   font-size: 30px;
   color: white;
   text-align: center;
+}
+.l5 {
+  background-image: url(Resources/images/story-3-beard.png);
+  width: 630px;
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  display:flex;
+
 }
 
 .column.medium {
