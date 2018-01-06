@@ -1,5 +1,6 @@
 html {
   font-family: helvetica, sans-serif;
+  width: 1230px;
 }
 header {
   font-family: Verdana;
@@ -10,6 +11,7 @@ header {
   flex-direction: row;
   border-bottom: 1px solid black;
   height: 75px;
+  width:1230px;
 }
 .logo {
   height: 60px;
@@ -17,7 +19,7 @@ header {
 }
 .mytimes {
   height: 60px;
-  width: 1000px;
+  width: 1230px;
   align-items: center;
   padding-left: 15px;
 }
@@ -28,7 +30,10 @@ nav {
   justify-content: flex-end;
   align-items: center;
   margin-right: 30px;
-  color: black !important
+}
+nav a {
+  color: #000;
+
 }
 nav .box {
   width: 75px;
@@ -38,14 +43,10 @@ nav .box {
 .container {
   border: 1px solid black;
   display: inline-flex;
-  flex-direction: row;
   justify-content: space-between;
-
+  width: 1230px;
 }
-.container div {
-  border: 1px solid black;
-}
-.column.large {
+.column-large {
   width: 630px;
   height: auto;
   display: flex;
@@ -77,7 +78,6 @@ p {
   font-size: 17px;
   color: black;
   }
-
 h3 {
   font-family: Georgia;
   font-size: 24px;
@@ -99,6 +99,7 @@ h3 {
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .photo-titles {
   font-family: Georgia;
   font-weight: bold;
@@ -106,18 +107,22 @@ h3 {
   font-size: 30px;
   color: white;
   text-align: center;
-  padding: 0  50px;
+  padding: 0  20px;
 }
 
-.column.medium {
+.column-medium {
   width: 300px;
   height: auto;
   display: flex;
   flex-direction: column;
   border: 1px solid black;
-
 }
-.column.small {
+.cats-image {
+    background-image: url(Resources/images/story-1-cat.png);
+    height: 300px;
+    width: 300px;
+}
+.column-small {
   width: 240px;
   height: auto;
   display: flex;
