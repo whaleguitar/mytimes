@@ -161,9 +161,11 @@ h2 {
   flex-direction: column;
 }
 .titles {
-  background-color: gainsboro;
-  height: 35px;
+  
   border-bottom: 1px solid black;
   padding: 12px 20px;
-
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
 }
