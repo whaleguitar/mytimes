@@ -69,17 +69,22 @@ nav .box {
   order:2;
   margin-left: 15px;
 }
+.main-pic {
+  display:flex;
+}
 .image-content {
   background-image:url(Resources/images/img-story-main.png);
-  width: 630px;
-  height: 315px;
+  width: 610px;
+  height: 300px;
   margin-top: 0;
+  padding-left: 20px;
   display:flex;
   text-align: left;
   font-family: Georgia;
   font-weight: bold;
   font-size: 40px;
   color: white;
+  align-items: center;
 }
 .story-content {
   width: 630px;
@@ -105,6 +110,7 @@ h3 {
   height: 300px;
   display: flex;
   justify-content: center;
+  align-items: center;
   order: 3;
   margin-right: 15px;
   margin-top: 15px;
@@ -116,8 +122,9 @@ h3 {
   margin-left: 15px;
   margin-top: 15px;
   height: 300px;
-  display:flex;
+  display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   order: 4;
   margin bottom: 60px;
@@ -144,6 +151,8 @@ h3 {
     height: 300px;
     width: 300px;
     margin-top: 15px;
+    display: flex;
+    align-items: center;
 }
 .column-small {
   width: 240px;
